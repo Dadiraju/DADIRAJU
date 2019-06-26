@@ -10,6 +10,7 @@ namespace MVCGITHub.Controllers
     {
         public ActionResult Index()
         {
+        viewbag.name = "RAJU";
             return View();
         }
 
